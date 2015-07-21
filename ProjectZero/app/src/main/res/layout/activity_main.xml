@@ -16,42 +16,42 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
-            android:text="Nanodegree Apps"
+            android:text="@string/app_header"
             android:textSize="24sp" />
 
         <Button
             android:id="@+id/spotify_btn"
             android:onClick="launchApp"
             android:tag="spotify_btn"
-            android:text="Spotify Streamer"
+            android:text="@string/btn_spotify"
             style="@style/BigButton" />
 
         <Button
             android:id="@+id/scores_btn"
             android:onClick="launchApp"
             android:tag="scores_btn"
-            android:text="Scores App"
+            android:text="@string/btn_scores"
             style="@style/BigButton" />
 
         <Button
             android:id="@+id/library_btn"
             android:onClick="launchApp"
             android:tag="library_btn"
-            android:text="Library App"
+            android:text="@string/btn_library"
             style="@style/BigButton" />
 
         <Button
             android:id="@+id/bigger_btn"
             android:onClick="launchApp"
             android:tag="bigger_btn"
-            android:text="Build It Bigger"
+            android:text="@string/btn_bigger"
             style="@style/BigButton" />
 
         <Button
             android:id="@+id/xyz_btn"
             android:onClick="launchApp"
             android:tag="xyz_btn"
-            android:text="XYZ Reader"
+            android:text="@string/btn_xyz"
             style="@style/BigButton" />
 
         <Button
@@ -59,7 +59,7 @@
             android:id="@+id/capstone_btn"
             android:onClick="launchApp"
             android:tag="capstone_btn"
-            android:text="Capstone: My Own App"
+            android:text="@string/btn_capstone"
             style="@style/BigButton" />
 
     </LinearLayout>
